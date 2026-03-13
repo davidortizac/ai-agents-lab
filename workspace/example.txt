@@ -1,0 +1,8 @@
+This is an example file for the AI agent.
+
+You can ask the agent to:
+- Read this file
+- List files in the workspace directory
+- Execute Python code
+
+Try: "Read the file workspace/example.txt and summarize it."
