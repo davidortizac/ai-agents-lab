@@ -11,7 +11,7 @@ load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "..", ".env"))
 
 # Ollama connection settings
 OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL", "http://host.docker.internal:11434")
-OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3")
+OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "qwen3:8b")
 
 # Workspace and memory paths (mounted as Docker volumes)
 WORKSPACE_PATH: str = os.getenv("WORKSPACE_PATH", "/app/workspace")
